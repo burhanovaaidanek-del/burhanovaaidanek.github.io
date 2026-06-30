@@ -1,0 +1,1 @@
+function check(){const ok="любовь всей моей жизни";const v=document.getElementById("code").value.trim().toLowerCase();if(v===ok){page1.classList.add("hidden");page2.classList.remove("hidden")}else{err.textContent="❌ Кодовое слово неверное. Попробуйте ещё раз ❤️"}}
